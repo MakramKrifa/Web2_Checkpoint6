@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './profile/App';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App  fullName='Mootez Zemmel' 
+          bio='I’m 2nd year prepatory student, I’m interested in software and web development, I’m currently learning react and node js' 
+          profession='FullStack Developper'
+          user="Mootez"/>
   </React.StrictMode>
 );
 
